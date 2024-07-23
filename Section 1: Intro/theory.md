@@ -1,6 +1,6 @@
 # Theory
 
-## Transistors -> Integrated Circuits -> FPGAs
+## Transistors -> Integrated Circuits -> FPGAs -> LUTs
 
 ## Describe how FPGAs are buildable using transistors, and that ICs are just collections of transistors in a nice reliable package.
 
@@ -70,7 +70,13 @@ All circuit components and their inter-connections are formed on a single thin w
 
 ### Question 3 - What the fuck are Field Programmable Gate Arrays (FPGAs)?
 
-It's a type of configurable Integrated Circuit.
+In fact FPGAs are Integrated Circuits as well with the main difference being that they're still programmable AFTER manufacturing, whereas traditional ICs are static in their configuration once they've been built.
+
+Which allows for much more flexibility and makes them hackable.
+
+### Question 4 - What the fuck are Lookup Tables (LUTs)?
+
+
 
 ## Glossary
 
