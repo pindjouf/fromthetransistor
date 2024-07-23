@@ -1,4 +1,6 @@
-# Notes
+# Theory
+
+## Transistors -> Integrated Circuits -> FPGAs
 
 ## Describe how FPGAs are buildable using transistors, and that ICs are just collections of transistors in a nice reliable package.
 
@@ -9,7 +11,7 @@ They're a *semiconductor*[¹](#glossary) device who's goal is to control the flo
 
 - Bipolar Junction Transistor (BJT)
 
-    - Has three separately *doped* regions[²](#glossary) & two *junctions*[³](#glossary) 
+    - Has three separately *doped* regions/terminals[²](#glossary) & two *junctions*[³](#glossary) 
     - Comes in **2** different types:
         - The ***npn*** BJT
         - The ***pnp*** BJT
@@ -20,6 +22,12 @@ They're a *semiconductor*[¹](#glossary) device who's goal is to control the flo
         - Emitter (Negative lead)
    
 - Field Effect Transistor (FET)
+
+    - Has **4** terminals:
+        - Source (Entry point)
+        - Drain (Exit point)
+        - Gate
+        - Body
 
 ### Basic BJT Applications
 
@@ -62,7 +70,7 @@ All circuit components and their inter-connections are formed on a single thin w
 
 ### Question 3 - What the fuck are Field Programmable Gate Arrays (FPGAs)?
 
-
+It's a type of configurable Integrated Circuit.
 
 ## Glossary
 
