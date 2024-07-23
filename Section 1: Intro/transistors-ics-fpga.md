@@ -41,11 +41,26 @@ When talking about analog circuits, you can use the transistor as an amplifier b
 
 ##### Simple analogy
 
-- As a switch: John (the transistor) is a lazy fuck. If you don't give him enough coffee he will literally sleep (cutoff region/off), but if you give him just enough he will be ready to work (active region/on).
+- **As a switch:** John (the transistor) is a lazy fuck. If you don't give him enough coffee he will literally sleep (cutoff region/off), but if you give him just enough he will be ready to work (active region/on).
 
-- As an amplifier: I don't have one yet, fuck off. All I can think of is examples that are built FROM transistors! Stuff like guitar amps. -_-
+- **As an amplifier:** I don't have one yet, fuck off. All I can think of is examples that are built FROM transistors! Stuff like guitar amps. -_-
 
 ### Question 2 - What the fuck are Integrated Circuits (ICs)?
+
+Integrated circuits are basically contaiiiners of *discrete electronic components*[⁵](#Glossary)
+
+There are four basic types of constructions in the manufacture of ICs, namely:
+
+1. **mono-lithic (most used!!)**
+2. thin-film
+3. thick-film
+4. hybrid
+
+#### Characteristic(s) of a Monolithic IC
+
+All circuit components and their inter-connections are formed on a single thin wafer called the substrate.
+
+### Question 3 - What the fuck are Field Programmable Gate Arrays (FPGAs)?
 
 
 
@@ -57,15 +72,17 @@ In metals the electrons aren't really bound to atomic nuclei, so a small amount 
 In insulators the electrons are fully bound to their nuclei so it takes a lot of energy to rip them away.\
 In semiconductors they're still bound to the nuclei but they have some space to move as they please.
 
-2. **doping** is a process that allows us to make the number of free electrons go up (Phosphorous) or down (Boron) by adding impurities to the semiconductor material (sillicon)!\
+2. **Doping** is a process that allows us to make the number of free electrons go up (Phosphorous) or down (Boron) by adding impurities to the semiconductor material (sillicon)!\
 Silicon doped with Phosphorous is called N-type and doped with Boron is called P-type (Because their outer atomic shells are more Negative or Positive).
 
-3. **junctions** are the boundaries between n and the p regions. They may be forward or reverse biased.
+3. **Junctions** are the boundaries between n and the p regions. They may be forward or reverse biased.
 
 4. **Forward Bias-Reverse Bias** 
 
     - Forward Bias: Reduces the barrier and allows significant current to flow.
     - Reverse Bias: Increases the barrier and restricts current flow. (No current flow)
+
+5. **Discrete Components** are single parts of electronic circuits with one dominant function, like: `Transistors`, `Diodes`, `Capacitors`, `Resistors`.
 
 #### Temporary
 ⁰¹²³⁴⁵⁶⁷⁸⁹
