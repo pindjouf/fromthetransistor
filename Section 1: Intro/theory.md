@@ -29,6 +29,14 @@ They're a *semiconductor*[¹](#glossary) device who's goal is to control the flo
         - Gate
         - Body
 
+- metal-oxide-semiconductor field-effect transistor (MOSFET) - The most popular transistor
+
+    - Has **4** terminals:
+        - Source
+        - Drain
+        - Gate
+        - Base
+
 ### Basic BJT Applications
 
 #### Switch
@@ -72,7 +80,7 @@ All circuit components and their inter-connections are formed on a single thin w
 
 In fact FPGAs are Integrated Circuits as well with the main difference being that they're still programmable AFTER manufacturing, whereas traditional ICs are static in their configuration once they've been built.
 
-Which allows for much more flexibility and makes them hackable.
+Which allows for much more flexibility and makes them *hackable*.
 
 ### Question 4 - What the fuck are Lookup Tables (LUTs)?
 
@@ -96,7 +104,7 @@ Silicon doped with Phosphorous is called N-type and doped with Boron is called P
     - Forward Bias: Reduces the barrier and allows significant current to flow.
     - Reverse Bias: Increases the barrier and restricts current flow. (No current flow)
 
-5. **Discrete Components** are single parts of electronic circuits with one dominant function, like: `Transistors`, `Diodes`, `Capacitors`, `Resistors`.
+5. **Discrete Components** are single parts of electronic circuits with one dominant function, like: `Transistors`, `Diodes`, `Capacitors`, `Resistors`. Usually used in a context where you have to specify the difference between having separated components that are then connected through wires as opposed to having them all built together in an IC for instance.
 
 #### Temporary
 ⁰¹²³⁴⁵⁶⁷⁸⁹

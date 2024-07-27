@@ -2,7 +2,7 @@
 
 ## Objective(s)
 
-- [ ] **Describe how FPGAs are buildable using transistors, and that ICs are just collections of transistors in a nice reliable package.**
+- [x] **Describe how FPGAs are buildable using transistors, and that ICs are just collections of transistors in a nice reliable package.**
 - [ ] **Understand the LUTs and stuff.**
 - [ ] **Talk briefly about the theory of transistors, but all projects must build on each other so we can’t build one**
 
