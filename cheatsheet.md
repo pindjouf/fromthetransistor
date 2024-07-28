@@ -6,3 +6,7 @@ Anything that I don't understand, I will just put here to have something to assi
 If it looks like it's a prerequitite in the course that I DON'T have then it will be here!
 
 - Truth table: a diagram of the outputs from all possible combinations of input.
+
+## Docs
+
+Verilog: [verilog.htm](https://lateblt.tripod.com/verilog.htm) 
