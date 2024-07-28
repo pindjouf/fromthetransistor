@@ -1,7 +1,7 @@
 # Browser: Coming online (1 week)
 
 - [ ] **Building a TCP stack(C, 500)**
-    - Probably coded in the kernel, integrate the ethernet driver into the kernel. Add support for networking syscalls to kernel. (send, recv, bind, connect)
+    - *Probably coded in the kernel, integrate the ethernet driver into the kernel. Add support for networking syscalls to kernel. (send, recv, bind, connect)*
 - [ ] **telnetd, the power of being multiprocess(C, 50)**
     -  *Written in C, user can connect multiple times with telnet. Really just a bind shell.*
 - [ ] **Space saving dynamic linking(C, 300)**

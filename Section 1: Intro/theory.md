@@ -78,13 +78,36 @@ All circuit components and their inter-connections are formed on a single thin w
 
 ### Question 3 - What the fuck are Field Programmable Gate Arrays (FPGAs)?
 
-In fact FPGAs are Integrated Circuits as well with the main difference being that they're still programmable AFTER manufacturing, whereas traditional ICs are static in their configuration once they've been built.
+In fact FPGAs are Integrated Circuits as well, with the main difference being that they're still programmable AFTER manufacturing, whereas traditional ICs are static in their configuration once they've been built.
 
 Which allows for much more flexibility and makes them *hackable*.
 
 ### Question 4 - What the fuck are Lookup Tables (LUTs)?
 
+Basically truth tables but used as memory.\
+They look the same but they serve different functions.
 
+So the input combinations are used as an address for instance if you have a 2-input LUT it'd be a 4-bit memory because the highest number you can reach with 2 bits is 3, *add* the 0 to that and you have 4-bit memory. This explanation probably only makes sense to me I'll have to polish it later. To get back to the example:
+
+*f(A,B)* = *A + B* 
+
+#### Truth table
+
+| A | B | OUT |
+| --------------- | --------------- | --------------- |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
+
+#### Look-up table
+
+| A | B | Address | Output (f(A,B)) |
+| --------------- | --------------- | --------------- | --------------- |
+| 0 | 0 | 00 | 0 |
+| 0 | 1 | 01 | 1 |
+| 1 | 0 | 10 | 1 |
+| 1 | 1 | 11 | 1 |
 
 ## Glossary
 
