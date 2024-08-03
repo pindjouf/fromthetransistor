@@ -1,26 +1,22 @@
-module blink_tb ();
+module blink_tb;
+    reg clk;
+    wire led;
 
-    reg r_Clock = 1'b0;
-
-    always #1 r_Clock <= ~r_Clock;
-  
-    // Need to set up parameters appropriately
-    // These will blink much faster than on hardware.
-    // This allows simulation to run quickly.
-    blink #(.g_COUNT_1HZ(50)) UUT
-        (.i_Clk(r_Clock), .o_LED());
-
-    initial 
-        begin
-            $display("Starting Testbench...");
-            #200;
-            $finish();
-        end
+    blink dut (
+        .clk(clk),
+        .led(led)
+        );
+   
+    initial clk = 0;
+    always #5 clk <= ~clk;
   
     initial 
         begin
-        // Required to dump signals to EPWave
+            $display("Running testbench...");
             $dumpfile("dump.vcd");
             $dumpvars(0);
+            #30_000_000;
+            $display("Done: made file dump.vcd");
+            $finish;
         end
 endmodule // blink_tb

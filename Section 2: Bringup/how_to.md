@@ -13,7 +13,14 @@ First step is to write your design.
 Simple example:
 
 ```systemverilog
-
+module blink (
+    input clk,
+    output led
+);
+    
+    assign led = clk;
+    
+endmodule // blink
 ```
 
 Then you write your testbench[¹](#glossary), to provide input to your DUT/UUT[²](#glossary).
@@ -21,12 +28,37 @@ Then you write your testbench[¹](#glossary), to provide input to your DUT/UUT[�
 Simple example:
 
 ```systemverilog
+module blink_tb;
+    reg clk;
+    wire led;
 
+    blink dut (
+        .clk(clk),
+        .led(led)
+        );
+   
+    initial clk = 0;
+    always #5 clk <= ~clk;
+  
+    initial 
+        begin
+            $display("Running testbench...");
+            $dumpfile("dump.vcd");
+            $dumpvars(0);
+            #30_000_000;
+            $display("Done: made file dump.vcd");
+            $finish;
+        end
+endmodule // blink_tb
 ```
 
 ### Simulate
 
+If we keep the same design and testbench as above you can use a command such as this one to compile your tb: `verilator --trace --binary --build-jobs 0 -Wall blink_tb.sv -Wno-lint -timing -o cool`
 
+After that, go into the obj_dir and the run the executable.
+
+If you added a dumpfile in your code it should now be in the same directory.
 
 ### Visualize
 
