@@ -67,11 +67,10 @@ If you added a dumpfile in your code it should now be in the same directory.
 - Select all your signals in the left column.
 - Analyze and enjoy! :D
 
+![waves](assets/waves.png) 
+
 ### Glossary
 
 1. The function of a testbench is to apply stimulus (inputs) to the DUT/UUT, and report the outputs in a readable and user-friendly format.
 
 2. Device Under Test | Unit Under Test.
-
-### Temporary
-⁰¹²³⁴⁵⁶⁷⁸⁹
