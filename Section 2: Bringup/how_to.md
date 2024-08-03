@@ -41,7 +41,5 @@ Simple example:
 
 2. Device Under Test | Unit Under Test.
 
-
-
 ### Temporary
 ⁰¹²³⁴⁵⁶⁷⁸⁹
