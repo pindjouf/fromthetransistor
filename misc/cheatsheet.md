@@ -20,20 +20,15 @@ If it looks like it's a prerequitite in the course that I DON'T have then it wil
 ### Misc
 
 - MSB-LSB: Most significant bit is the one on the left, it's the opposite for LSB which is on the left.
+- Clock signal: A logic beat, it determines the `rhythm` of signals. Ex: we add 1 on every clock cycle as long as posedge and reset != 1 at the same time. *q is a 4-bit reg.*
 
 ## Black Box
 
-- Clock signal: A logic beat, it determines the`rhythm`of signals. Ex: we add 1 on every clock cycle as long os posedge and reset are not == 1 at the same time. *q is a 4-bit reg.*
-
-```systemverilog
-    always @(posedge clk) begin : counter
-        if (reset) begin
-            q <= 4'b0000;
-        end else begin
-            q <= q+4'b0001;
-        end
-    end
-```
+- Parity bits: 
+- Registers: 
+- Baud rate: 
+- Flip flops: 
+- Latch: 
 
 ## Docs
 

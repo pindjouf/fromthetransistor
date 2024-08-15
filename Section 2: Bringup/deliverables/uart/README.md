@@ -1,10 +1,19 @@
 # Building a UART -- copy a real UART
 
-## WD1402A
+## PrimeCell UART (PL011)
 
 ### Question 1 - What the fuck is a UART?
 
-It's a device (IC) that converts data buses to serial and vice versa
+It's a device (IC) that converts data buses to serial and vice versa.
 
-### Question 1 - How do they work?
+
+### Question 2 - ?
+
+
+### Question 3 - Main parts
+
+#### Registers
+- 
+- 
+- 
 

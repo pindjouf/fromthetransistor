@@ -1,11 +1,15 @@
 module design (
-    input [7:0] bus_in,
-    input rx,
-    output [7:0] bus_out,
-    output tx
+    input [7:0] bus,
+    input [7:0] rx,
+    output [7:0] tx
 );
-    
-    assign tx = bus_in;
-    assign rx = bus_out;
 
+    reg [7:0] rx_reg;
+    reg [7:0] tx_reg;
+
+    reg rx_ctrl_reg;
+    reg tx_ctrl_reg;
+
+    reg ctrl_reg;
+    
 endmodule
