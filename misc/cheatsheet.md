@@ -40,7 +40,10 @@ endmodule
 
 ## Docs
 
-Verilog: [verilog.htm](https://lateblt.tripod.com/verilog.htm)
+### Verilog
+
+- [Cool blog](https://lateblt.tripod.com/verilog.htm)
+- [AMD docs](https://docs.amd.com/r/en-US/ug901-vivado-synthesis/Introduction?tocId=aE1Do~7cz0rNiUszTq1pbg)
 
 ## Exercises
 
