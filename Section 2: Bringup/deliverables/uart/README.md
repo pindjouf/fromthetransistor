@@ -1,6 +1,6 @@
 # Building a UART -- copy a real UART
 
-## PrimeCell UART (PL011)
+## 8250 UART
 
 ### Question 1 - What the fuck is a UART?
 
