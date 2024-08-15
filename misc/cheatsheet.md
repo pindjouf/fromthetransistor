@@ -17,6 +17,13 @@ If it looks like it's a prerequitite in the course that I DON'T have then it wil
 
 - **Serial communication:** Sending bits sequentially (one by one) from LSB to MSB, in contrast to parallel communication which sends them all at the same time.
 - **Ternary operator:** Used to choose between two values with a simple conditional statement. Ex: `max = (x > y) ? x : y;` if the condition *(x > y)* is true then the operation will return x else it will return y, in this case max becomes one or the other.
+- **Multiplexer:** it's a data selector, let's say you have an ATM and you need to determine what account *(output)* going to show based on the customer id (input). When the customer id is 5 I want it to show account nr 5, in this example we're selecting the *bit/index* from vector *in* based on the *value* of the selector:
+
+```systemverilog
+module mux(input id[255:0], input sel[7:0], output account);
+    assign account = id[sel];
+endmodule
+```
 
 ### Misc
 
@@ -30,7 +37,6 @@ If it looks like it's a prerequitite in the course that I DON'T have then it wil
 - **Baud rate:** 
 - **Flip flops:** 
 - **Latch:** 
-- **Multiplexer:** 
 
 ## Docs
 
