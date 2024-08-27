@@ -8,6 +8,7 @@
 VL_ATTR_COLD void Vblink_tb___024root___eval_initial__TOP(Vblink_tb___024root* vlSelf);
 VlCoroutine Vblink_tb___024root___eval_initial__TOP__Vtiming__0(Vblink_tb___024root* vlSelf);
 VlCoroutine Vblink_tb___024root___eval_initial__TOP__Vtiming__1(Vblink_tb___024root* vlSelf);
+VlCoroutine Vblink_tb___024root___eval_initial__TOP__Vtiming__2(Vblink_tb___024root* vlSelf);
 
 void Vblink_tb___024root___eval_initial(Vblink_tb___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
@@ -17,6 +18,7 @@ void Vblink_tb___024root___eval_initial(Vblink_tb___024root* vlSelf) {
     Vblink_tb___024root___eval_initial__TOP(vlSelf);
     Vblink_tb___024root___eval_initial__TOP__Vtiming__0(vlSelf);
     Vblink_tb___024root___eval_initial__TOP__Vtiming__1(vlSelf);
+    Vblink_tb___024root___eval_initial__TOP__Vtiming__2(vlSelf);
 }
 
 VL_INLINE_OPT VlCoroutine Vblink_tb___024root___eval_initial__TOP__Vtiming__1(Vblink_tb___024root* vlSelf) {
@@ -25,9 +27,25 @@ VL_INLINE_OPT VlCoroutine Vblink_tb___024root___eval_initial__TOP__Vtiming__1(Vb
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vblink_tb___024root___eval_initial__TOP__Vtiming__1\n"); );
     // Body
     while (1U) {
+        co_await vlSelf->__VdlySched.delay(0xaULL, 
+                                           nullptr, 
+                                           "blink_tb.sv", 
+                                           16);
+        vlSelf->__VdlyVal__blink_tb__DOT__on__v0 = 
+            (1U & (~ (IData)(vlSelf->blink_tb__DOT__on)));
+        vlSelf->__VdlySet__blink_tb__DOT__on__v0 = 1U;
+    }
+}
+
+VL_INLINE_OPT VlCoroutine Vblink_tb___024root___eval_initial__TOP__Vtiming__2(Vblink_tb___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vblink_tb__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vblink_tb___024root___eval_initial__TOP__Vtiming__2\n"); );
+    // Body
+    while (1U) {
         co_await vlSelf->__VdlySched.delay(5ULL, nullptr, 
                                            "blink_tb.sv", 
-                                           11);
+                                           15);
         vlSelf->__VdlyVal__blink_tb__DOT__clk__v0 = 
             (1U & (~ (IData)(vlSelf->blink_tb__DOT__clk)));
         vlSelf->__VdlySet__blink_tb__DOT__clk__v0 = 1U;
@@ -57,6 +75,10 @@ VL_INLINE_OPT void Vblink_tb___024root___nba_sequent__TOP__0(Vblink_tb___024root
     Vblink_tb__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vblink_tb___024root___nba_sequent__TOP__0\n"); );
     // Body
+    if (vlSelf->__VdlySet__blink_tb__DOT__on__v0) {
+        vlSelf->__VdlySet__blink_tb__DOT__on__v0 = 0U;
+        vlSelf->blink_tb__DOT__on = vlSelf->__VdlyVal__blink_tb__DOT__on__v0;
+    }
     if (vlSelf->__VdlySet__blink_tb__DOT__clk__v0) {
         vlSelf->__VdlySet__blink_tb__DOT__clk__v0 = 0U;
         vlSelf->blink_tb__DOT__clk = vlSelf->__VdlyVal__blink_tb__DOT__clk__v0;

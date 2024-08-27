@@ -24,6 +24,7 @@ void Vblink_tb___024root__trace_chg_0_sub_0(Vblink_tb___024root* vlSelf, Verilat
     uint32_t* const oldp VL_ATTR_UNUSED = bufp->oldp(vlSymsp->__Vm_baseCode + 1);
     // Body
     bufp->chgBit(oldp+0,(vlSelf->blink_tb__DOT__clk));
+    bufp->chgBit(oldp+1,(vlSelf->blink_tb__DOT__on));
 }
 
 void Vblink_tb___024root__trace_cleanup(void* voidSelf, VerilatedVcd* /*unused*/) {

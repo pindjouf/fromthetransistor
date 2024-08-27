@@ -1,8 +1,15 @@
 module blink (
     input clk,
-    output led
+    input on,
+    output reg led
 );
     
-    assign led = clk;
+always begin
+    if (on) begin
+        led = 1;
+    end else begin
+        led = 0;
+    end
+end
     
 endmodule

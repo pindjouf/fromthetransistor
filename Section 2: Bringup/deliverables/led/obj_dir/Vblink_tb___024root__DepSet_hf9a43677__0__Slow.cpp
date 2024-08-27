@@ -17,6 +17,7 @@ VL_ATTR_COLD void Vblink_tb___024root___eval_initial__TOP(Vblink_tb___024root* v
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vblink_tb___024root___eval_initial__TOP\n"); );
     // Body
     vlSelf->blink_tb__DOT__clk = 0U;
+    vlSelf->blink_tb__DOT__on = 0U;
 }
 
 VL_ATTR_COLD void Vblink_tb___024root___eval_final(Vblink_tb___024root* vlSelf) {
@@ -67,6 +68,9 @@ VL_ATTR_COLD void Vblink_tb___024root___ctor_var_reset(Vblink_tb___024root* vlSe
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vblink_tb___024root___ctor_var_reset\n"); );
     // Body
     vlSelf->blink_tb__DOT__clk = VL_RAND_RESET_I(1);
+    vlSelf->blink_tb__DOT__on = VL_RAND_RESET_I(1);
+    vlSelf->__VdlyVal__blink_tb__DOT__on__v0 = VL_RAND_RESET_I(1);
+    vlSelf->__VdlySet__blink_tb__DOT__on__v0 = 0;
     vlSelf->__VdlyVal__blink_tb__DOT__clk__v0 = VL_RAND_RESET_I(1);
     vlSelf->__VdlySet__blink_tb__DOT__clk__v0 = 0;
 }

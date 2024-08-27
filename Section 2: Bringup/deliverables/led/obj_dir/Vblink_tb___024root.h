@@ -16,6 +16,9 @@ class alignas(VL_CACHE_LINE_BYTES) Vblink_tb___024root final : public VerilatedM
 
     // DESIGN SPECIFIC STATE
     CData/*0:0*/ blink_tb__DOT__clk;
+    CData/*0:0*/ blink_tb__DOT__on;
+    CData/*0:0*/ __VdlyVal__blink_tb__DOT__on__v0;
+    CData/*0:0*/ __VdlySet__blink_tb__DOT__on__v0;
     CData/*0:0*/ __VdlyVal__blink_tb__DOT__clk__v0;
     CData/*0:0*/ __VdlySet__blink_tb__DOT__clk__v0;
     CData/*0:0*/ __VactContinue;

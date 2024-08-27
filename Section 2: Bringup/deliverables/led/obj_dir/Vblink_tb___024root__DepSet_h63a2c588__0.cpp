@@ -16,9 +16,9 @@ VL_INLINE_OPT VlCoroutine Vblink_tb___024root___eval_initial__TOP__Vtiming__0(Vb
     vlSymsp->_traceDumpOpen();
     co_await vlSelf->__VdlySched.delay(0x1c9c380ULL, 
                                        nullptr, "blink_tb.sv", 
-                                       18);
+                                       23);
     VL_WRITEF_NX("Done: made file dump.vcd\n",0);
-    VL_FINISH_MT("blink_tb.sv", 20, "");
+    VL_FINISH_MT("blink_tb.sv", 25, "");
 }
 
 #ifdef VL_DEBUG

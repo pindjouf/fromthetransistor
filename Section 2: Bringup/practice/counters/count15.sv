@@ -4,7 +4,8 @@
 module count15 (
     input clk,
     input reset,      // Synchronous active-high reset
-    output reg [3:0] q);
+    output reg [3:0] q,
+    );
 
     always @(posedge clk) begin : counter
         if (reset) begin
