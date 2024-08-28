@@ -8,7 +8,7 @@ This might be another excuse to procrastinate or the solution to the problem I g
 
 ## Course outline
 
-- [x] **0. Make your LED blink at 5 Hz** -- [Async 2 kHz led blinker]() 
+- [x] **0. Make your LED blink at 5 Hz** -- [Async 2 kHz led blinker](https://github.com/pindjouf/fromthetransistor/tree/master/Section%202%3A%20Bringup/mini_projects/0_led_freq)
 
     - **Objective:** Modify your current LED blinker so that it blinks at a specific frequency of 5 Hz.
     - **Skills Gained:** Understanding of frequency manipulation, clock division, and how to control timing with precision.

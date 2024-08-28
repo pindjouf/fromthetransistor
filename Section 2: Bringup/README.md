@@ -2,7 +2,7 @@
 
 ## Objective(s)
 
-- [x] **Blinking an LED(Verilog, 10) -- Learning Verilog.**
+- [x] [**Blinking an LED(Verilog, 10) -- Learning Verilog.**](https://github.com/pindjouf/fromthetransistor/tree/master/Section%202%3A%20Bringup/deliverables/led)
 - [ ] **Building a UART(Verilog, 100) -- Copy a real UART.**
 
 *Introducing the concept of MMIO, though the serial port may be semihosting.\
