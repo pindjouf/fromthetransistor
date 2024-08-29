@@ -14,7 +14,7 @@ This might be another excuse to procrastinate or the solution to the problem I g
     - **Skills Gained:** Understanding of frequency manipulation, clock division, and how to control timing with precision.
     - **Why Important:** Manipulating clock frequencies is a fundamental skill in digital design. In more complex systems like UARTs, you'll need to generate precise timing signals, such as baud rates, from a higher frequency system clock. This project introduces you to these concepts on a simple, easy-to-understand level, providing a foundation for future projects involving timing and clock management.
 
-- [ ] **1. Binary Counter**
+- [x] **1. Binary Counter** -- [Extended 8-bit counter with carry-out feature]() 
 
     - **Objective:** Design a simple binary counter that increments on each clock pulse.
     - **Skills Gained:** Understanding of sequential logic, registers, and counters.

@@ -1,18 +1,28 @@
+`timescale 1ns/100ps
 module moduleTest;
-    wire clk;
-    reg [7:0] count;
+    reg clk;
+    reg [3:0] q_low, q_high;
+    wire cout;
 
-    counterUnit dut (
+    counterUnit01 dut01 (
         .clk(clk),
-        .count(count)
+        .q(q_low),
+        .cout(cout)
+        );
+    
+    counterUnit02 dut02 (
+        .clk(clk),
+        .q(q_high),
+        .cin(cout)
         );
 
     always #5 clk = ~clk;
 
     initial begin
-        $dumpvars;
+        clk = 0;
         $dumpfile("dump.vcd");
-        #30_000_000;
+        $dumpvars;
+        #3000;
         $finish;
     end
 endmodule
