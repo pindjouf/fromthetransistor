@@ -20,7 +20,7 @@ This might be another excuse to procrastinate or the solution to the problem I g
     - **Skills Gained:** Understanding of sequential logic, registers, and counters.
     - **Why Important:** UARTs often use counters to manage timing for baud rate generation and data framing.
 
-- [ ] **2. PWM (Pulse Width Modulation) Generator**
+- [x] **2. PWM (Pulse Width Modulation) Generator** -- [LED with modular brightness (80% duty cycle)]()
 
     - **Objective:** Create a PWM generator that controls the brightness of an LED.
     - **Skills Gained:** Learn how to generate signals with varying duty cycles, which involves using counters and understanding timing.
