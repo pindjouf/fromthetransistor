@@ -25,11 +25,12 @@ module mux(input id[255:0], input sel[7:0], output account);
 endmodule
 ```
 
+- **Registers:** A register is a digital circuit with two basic functions: data storage and data movement
+
 ### Misc
 
 - **MSB-LSB:** Most significant bit is the one on the left, it's the opposite for LSB which is on the left.
 - **Clock signal:** A logic beat, it determines the `rhythm` of signals. Ex: we add 1 on every clock cycle as long as posedge and reset != 1 at the same time. *q is a 4-bit reg.*
-- **Registers:** Small pieces of RAM that are directly accessible for the device to manipulate.
 
 ## Black Box
 
