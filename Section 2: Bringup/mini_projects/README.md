@@ -20,13 +20,13 @@ This might be another excuse to procrastinate or the solution to the problem I g
     - **Skills Gained:** Understanding of sequential logic, registers, and counters.
     - **Why Important:** UARTs often use counters to manage timing for baud rate generation and data framing.
 
-- [x] **2. PWM (Pulse Width Modulation) Generator** -- [LED with modular brightness (80% duty cycle)]()
+- [x] **2. PWM (Pulse Width Modulation) Generator** -- [LED with modular brightness (80% duty cycle)](https://github.com/pindjouf/fromthetransistor/tree/master/Section%202%3A%20Bringup/mini_projects/2_pwm)
 
     - **Objective:** Create a PWM generator that controls the brightness of an LED.
     - **Skills Gained:** Learn how to generate signals with varying duty cycles, which involves using counters and understanding timing.
     - **Why Important:** Working with PWM will give you experience with timing control, which is essential for UART baud rate generation.
 
-- [ ] **3. Shift Register**
+- [x] **3. Shift Register** -- [4-bit SIPO shift register](url)
 
     - **Objective:** Implement an 8-bit shift register that can shift data left or right based on an input control signal.
     - **Skills Gained:** Understanding shift registers and serial data transmission.
