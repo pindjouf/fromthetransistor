@@ -1,9 +1,9 @@
 `timescale 1ns/1ps
 
 module sipoUnit (
-    reg data_in,
-    reg clk,
-    reg [3:0] q
+    input wire data_in,
+    input wire clk,
+    output reg [7:0] q
 );
 
     dff dff0 (
@@ -29,6 +29,34 @@ module sipoUnit (
         .clk(clk),
         .q(q[3])
         );
+
+
+    dff dff4 (
+        .d(q[3]),
+        .clk(clk),
+        .q(q[4])
+        );
+
+
+    dff dff5 (
+        .d(q[4]),
+        .clk(clk),
+        .q(q[5])
+        );
+
+
+    dff dff6 (
+        .d(q[5]),
+        .clk(clk),
+        .q(q[6])
+        );
+
+
+    dff dff7 (
+        .d(q[6]),
+        .clk(clk),
+        .q(q[7])
+        );
 endmodule
 
 module dff (
@@ -38,7 +66,7 @@ module dff (
 );
 
 always @ (posedge clk) begin
-    q = d;
+    q <= d;
 end
     
 endmodule

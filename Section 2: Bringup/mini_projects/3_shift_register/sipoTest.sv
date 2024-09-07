@@ -4,7 +4,8 @@ module sipoTest;
 
 reg data_in;
 reg clk;
-reg [3:0] q;
+reg [7:0] q;
+int i;
 
 sipoUnit dut (
     .data_in(data_in),
@@ -13,8 +14,10 @@ sipoUnit dut (
     );
 
 always #5 clk = ~clk;
+always #15 data_in = ~data_in;
 
-bit data_in = 1;
+initial clk = 0;
+initial data_in = 0;
 
 initial begin
     $dumpfile("dump.vcd");
