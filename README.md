@@ -2,7 +2,7 @@
 
 **A self-guided journey** inspired by [George Hotz's](https://en.wikipedia.org/wiki/George_Hotz) course, this project follows a comprehensive and **hands-on approach** to understanding the entire modern computing stack—from the **fundamental transistor** to **building a functional web browser**! Each section involves constructing key components, using tools like **Verilog**, **Python**, **C**, and **Haskell** while focusing on both hardware and software development. 🎯
 
-![Circuit board](https://as1.ftcdn.net/v2/jpg/03/05/50/70/1000_F_305507033_BN534jYwkZk1gYGx9n03zfnoTkIDJTYL.jpg)
+<img src="https://as1.ftcdn.net/v2/jpg/03/05/50/70/1000_F_305507033_BN534jYwkZk1gYGx9n03zfnoTkIDJTYL.jpg" alt="Circuit board" style="width: 50%;">
 
 ---
 
