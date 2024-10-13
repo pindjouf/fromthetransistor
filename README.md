@@ -65,4 +65,4 @@ We welcome all contributions—whether you're fixing a bug, adding a feature, or
 
 Inspired by a journey through the modern computing stack, this project is based on [George Hotz's course](https://github.com/geohot/fromthetransistor). You can view the [full course breakdown here](https://github.com/pindjouf/fromthetransistor/blob/master/misc/course_outline.md).
 
-![Transistor to Browser](https://github.com/pindjouf/fromthetransistor/blob/master/Section%202%3A%20Bringup/assets/transist.png)
+<img src="https://github.com/pindjouf/fromthetransistor/blob/master/Section%202%3A%20Bringup/assets/transist.png" alt="Transistor to Browser" style="width: 70%; margin-left: auto; margin-right: auto;">
