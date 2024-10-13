@@ -38,18 +38,6 @@ This project focuses on **building a computing stack step by step**, starting fr
 
 ---
 
-## 📂 Repository Structure
-
-```bash
-fromthetransistor/
-│
-├── src/           # All source code (Verilog, Python, Haskell, C)
-├── docs/          # Documentation and notes for each section
-└── misc/          # Extra files, including the course outline
-```
-
----
-
 ## 🚧 How to Get Started
 
 Ready to dive in? Follow these steps:
