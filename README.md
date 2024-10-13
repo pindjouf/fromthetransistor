@@ -16,7 +16,7 @@ This project focuses on **building a computing stack step by step**, starting fr
 
 ### ⏳ Current Task
 
-➡️ **Working on a [UART](https://github.com/pindjouf/uart)**: Implementing a Universal Asynchronous Receiver-Transmitter (UART) in **Verilog** is the current focus. This helps in learning hardware description languages and chip-level design. 💻
+➡️ **Making a [UART](https://github.com/pindjouf/uart)**: Implementing a Universal Asynchronous Receiver-Transmitter (UART) in **Verilog** is the current focus. This helps in learning hardware description languages and chip-level design. 💻
 
 | Task           | Progress |
 | ---------------| -------- |
@@ -63,6 +63,6 @@ We welcome all contributions—whether you're fixing a bug, adding a feature, or
 
 ## 🎓 About This Course
 
-Inspired by a journey through the modern computing stack, this project is based on [George Hotz's course](https://github.com/pindjouf/fromthetransistor/blob/master/misc/course_outline.md). You can view the [full course breakdown here](https://github.com/pindjouf/fromthetransistor/blob/master/misc/course_outline.md).
+Inspired by a journey through the modern computing stack, this project is based on [George Hotz's course](https://github.com/geohot/fromthetransistor). You can view the [full course breakdown here](https://github.com/pindjouf/fromthetransistor/blob/master/misc/course_outline.md).
 
 ![Transistor to Browser](https://github.com/pindjouf/fromthetransistor/blob/master/Section%202%3A%20Bringup/assets/transist.png)
