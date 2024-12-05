@@ -14,13 +14,13 @@ This project focuses on **building a computing stack step by step**, starting fr
 
 ## 🏃‍♂️ Progress Tracker
 
-### ⏳ Current Task
+### ✅ Recently Completed
 
-➡️ **Making a [UART](https://github.com/pindjouf/uart)**: Implementing a Universal Asynchronous Receiver-Transmitter (UART) in **Verilog** is the current focus. This helps in learning hardware description languages and chip-level design. 💻
+➡️ **[UART Implementation](https://github.com/pindjouf/uart)**: The Universal Asynchronous Receiver-Transmitter (UART) module in **Verilog** is done! It taught the fundamentals of computer communication. 
 
 | Task           | Progress |
 | ---------------| -------- |
-| UART (Verilog) | 🔄 In Progress |
+| UART (Verilog) | ✅ Completed |
 | ARM CPU        | ⏳ Upcoming |
 | Operating System| ⏳ Upcoming |
 | Web Browser    | ⏳ Upcoming |
@@ -35,32 +35,3 @@ This project focuses on **building a computing stack step by step**, starting fr
 - 🌐 **Master networking** by building a **TCP stack**.
 - 🌍 **Construct a text-based web browser**.
 - 🤖 Eventually run everything on an **FPGA** for a fully functional, real-world computing system.
-
----
-
-## 🚧 How to Get Started
-
-Ready to dive in? Follow these steps:
-
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/pindjouf/fromthetransistor.git
-   ```
-
-2. **Explore the sections** by following the [course outline](https://github.com/pindjouf/fromthetransistor/blob/master/misc/course_outline.md). 📝
-
-3. **Contribute** by opening issues or submitting pull requests. Contributions are welcome! 🎉
-
----
-
-## 🤝 Want to Contribute?
-
-We welcome all contributions—whether you're fixing a bug, adding a feature, or improving documentation! Please check out the issues and feel free to open a pull request! 💡
-
-[![Contribute Now](https://img.shields.io/badge/Contribute-Now-blue?style=for-the-badge&logo=github)](https://github.com/pindjouf/fromthetransistor/issues) [![Follow](https://img.shields.io/badge/Follow-Me-green?style=for-the-badge&logo=github)](https://github.com/pindjouf)
-
----
-
-## 🎓 About This Course
-
-Inspired by a journey through the modern computing stack, this project is based on [George Hotz's course](https://github.com/geohot/fromthetransistor). You can view the [full course breakdown here](https://github.com/pindjouf/fromthetransistor/blob/master/misc/course_outline.md). Context [stream](https://www.youtube.com/watch?v=COr13MfGnHk&t=930s) and [reddit post](https://old.reddit.com/r/FPGA/comments/9vvdrn/george_hotz_programming_from_the_transistor/).

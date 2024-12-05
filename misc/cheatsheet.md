@@ -43,6 +43,7 @@ endmodule
 
 ### Verilog
 
+- [IEEE Standard for Verilog®](https://www.eg.bucknell.edu/~csci320/2016-fall/wp-content/uploads/2015/08/verilog-std-1364-2005.pdf)
 - [Cool blog](https://lateblt.tripod.com/verilog.htm)
 - [AMD docs](https://docs.amd.com/r/en-US/ug901-vivado-synthesis/Introduction?tocId=aE1Do~7cz0rNiUszTq1pbg)
 - [Crazy informative thread](https://forum.digilent.com/topic/24547-help-uart-protocol-complete-but-basic-explanation-and-guides-from-newbie-perspective/)
